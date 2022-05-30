@@ -1,4 +1,16 @@
 Learning use of systems command, out puts and print screen fucntion.
 _______________
-System.out.println("Java, Rocks!");
+System.out.println("Java Rocks!");
 ________________
+String language = "java";
+String feeling = "love";
+language = language.toUpperCase();
+feeling = feeling.toLowerCase();
+System.out.println ("I "+feeling+" "+language);
+________________________________
+
+boolean isRaining = true; // true or false
+// Write an if statement below that prints out "Windshield wipers on." when isRaining is true.
+if (isRaining) {//if it rains then the whipers will be turned on
+System.out.println("Windshield wipers on.");
+}
